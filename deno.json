@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --unstable-kv --allow-write --allow-net --allow-read ./src/main.ts",
+    "cmd": "deno run --unstable-kv --allow-write --allow-net --allow-read ./src/main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "jwa": "npm:jwa@2.0.0"
+  }
+}
